@@ -4,6 +4,7 @@ import { cn, generateMetadata } from "@/utils";
 import Providers from "@/components/global/providers";
 import FlareCursor from "@/components/global/flare-cursor";
 import LoadingScreen from "@/components/global/loading-screen";
+import StructuredData from "@/components/global/structured-data";
 import type { Viewport } from "next";
 
 export const metadata = generateMetadata();
@@ -27,6 +28,7 @@ export default function RootLayout({
                     handwriting.variable,
                 )}
             >
+                <StructuredData />
                 <Providers>
                     <LoadingScreen />
                     <FlareCursor />
