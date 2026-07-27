@@ -8,6 +8,7 @@ export const Routes = {
     Capabilities: "/#capabilities",
     Integrations: "/#integrations",
     Membership: "/#membership",
+    Faq: "/#faq",
 
     Dashboard: `${APP_URL}/login`,
 } as const;

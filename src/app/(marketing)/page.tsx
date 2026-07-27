@@ -7,6 +7,7 @@ import Capibilities from "@/components/marketing/capibilities";
 import Integrations from "@/components/marketing/integrations";
 import Membership from "@/components/marketing/membership";
 import WallOfLove from "@/components/marketing/wall-of-love";
+import Faq from "@/components/marketing/faq";
 import Cta from "@/components/marketing/cta";
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
             <Integrations />
             <Membership />
             <WallOfLove />
+            <Faq />
             <Cta />
         </div>
     )

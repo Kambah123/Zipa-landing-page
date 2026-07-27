@@ -1,3 +1,5 @@
+import { faqs } from "@/constants/faq";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://usezipa.xyz";
 
 /**
@@ -43,6 +45,19 @@ const StructuredData = () => {
                 priceCurrency: "USD",
             },
             publisher: { "@id": `${SITE_URL}/#organization` },
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "@id": `${SITE_URL}/#faq`,
+            mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: {
+                    "@type": "Answer",
+                    text: f.answer,
+                },
+            })),
         },
     ];
 

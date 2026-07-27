@@ -21,6 +21,10 @@ export const NAV_LINKS = [
         label: "Pricing",
         href: Routes.Membership,
     },
+    {
+        label: "FAQ",
+        href: Routes.Faq,
+    },
 ] as const;
 
 export const footerLinks = {
@@ -32,7 +36,7 @@ export const footerLinks = {
     ],
     resources: [
         { label: "Support", href: "https://x.com/0xSkamber" },
-        { label: "Beta FAQ", href: "#" },
+        { label: "Beta FAQ", href: Routes.Faq },
         { label: "Roadmap", href: "#" },
         { label: "Status", href: "#" }
     ],
