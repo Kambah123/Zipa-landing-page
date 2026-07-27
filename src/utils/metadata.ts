@@ -24,6 +24,7 @@ export const generateMetadata = ({
     icons?: Metadata["icons"];
     noIndex?: boolean;
 } = {}): Metadata => ({
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://usezipa.xyz"),
     title,
     description,
     icons,
