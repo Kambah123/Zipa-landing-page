@@ -42,13 +42,11 @@ export const footerLinks = {
     ],
     company: [
         { label: "About", href: "#" },
-        { label: "GitHub", href: "https://github.com/Kambah123" },
         { label: "Blog", href: "#" },
         { label: "Contact", href: "#" }
     ]
 };
 
 export const socialLinks = [
-    { label: "X", href: "https://x.com/0xSkamber", icon: "x" },
-    { label: "GitHub", href: "https://github.com/Kambah123", icon: "github" }
+    { label: "X", href: "https://x.com/0xSkamber", icon: "x" }
 ];
