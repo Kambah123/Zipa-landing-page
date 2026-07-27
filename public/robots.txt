@@ -1,0 +1,5 @@
+# usezipa.xyz — Zipa. Crypto banking, made simple.
+User-agent: *
+Allow: /
+
+Sitemap: https://usezipa.xyz/sitemap.xml
