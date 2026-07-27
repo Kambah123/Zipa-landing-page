@@ -5,13 +5,14 @@ import { cn } from '@/utils';
 import Container from '../global/container';
 import Wrapper from '../global/wrapper';
 
+// The real infrastructure Zipa runs on — shown as their own brand marks.
 const RAILS = [
-    { name: 'Solana', monogram: 'SOL' },
-    { name: 'Ethereum', monogram: 'ETH' },
-    { name: 'Base', monogram: 'BASE' },
-    { name: 'Privy', monogram: 'PRV' },
-    { name: 'Supabase', monogram: 'SB' },
-    { name: 'Helius', monogram: 'HEL' },
+    { name: 'Solana', icon: 'solana' },
+    { name: 'Ethereum', icon: 'ethereum' },
+    { name: 'Base', icon: 'base' },
+    { name: 'Privy', icon: 'privy' },
+    { name: 'Supabase', icon: 'supabase' },
+    { name: 'Helius', icon: 'helius' },
 ];
 
 const Socials = () => {
@@ -24,22 +25,26 @@ const Socials = () => {
                     </p>
                 </Container>
 
-                <div className="flex flex-wrap justify-center items-center gap-6 max-w-3xl mx-auto mt-8">
+                <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-5 max-w-2xl mx-auto mt-8">
                     {RAILS.map((rail) => (
                         <div
                             key={rail.name}
+                            title={rail.name}
                             className={cn(
-                                "flex items-center gap-2 px-4 py-2 rounded-lg",
+                                "group grid size-14 place-items-center rounded-2xl",
                                 "border border-foreground/10 bg-foreground/5",
-                                "hover:border-primary/20 hover:bg-primary/5 transition-all duration-300"
+                                "transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/25 hover:bg-primary/5",
                             )}
                         >
-                            <span className="text-xs font-mono font-bold text-primary/70 tracking-widest">
-                                {rail.monogram}
-                            </span>
-                            <span className="text-sm text-muted-foreground font-medium">
-                                {rail.name}
-                            </span>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src={`/icons/rails/${rail.icon}.svg`}
+                                alt={rail.name}
+                                width={30}
+                                height={30}
+                                className="size-7 transition-transform duration-300 group-hover:scale-110"
+                            />
+                            <span className="sr-only">{rail.name}</span>
                         </div>
                     ))}
                 </div>
