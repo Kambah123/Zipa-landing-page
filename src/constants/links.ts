@@ -43,7 +43,11 @@ export const footerLinks = {
     company: [
         { label: "About", href: "#" },
         { label: "Blog", href: "#" },
-        { label: "Contact", href: "#" }
+        { label: "Contact", href: "mailto:musa@usezipa.xyz" }
+    ],
+    legal: [
+        { label: "Terms of Service", href: "https://app.usezipa.xyz/terms" },
+        { label: "Privacy Policy", href: "https://app.usezipa.xyz/privacy" }
     ]
 };
 

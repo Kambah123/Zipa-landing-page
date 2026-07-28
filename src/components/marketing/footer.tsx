@@ -122,27 +122,43 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="flex items-center gap-4">
-                        {socialLinks.map((social) => (
-                            <Link
-                                key={social.label}
-                                href={social.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="opacity-60 hover:opacity-100 transition-opacity"
-                            >
-                                <Image
-                                    src={`/icons/integrations/${social.icon}.svg`}
-                                    alt={social.label}
-                                    width={20}
-                                    height={20}
-                                    className={cn(
-                                        "size-5 grayscale",
-                                        social.icon === "x" && "size-4",
-                                    )}
-                                />
-                            </Link>
-                        ))}
+                    <div className="flex flex-col md:flex-row items-center gap-4">
+                        <div className="flex items-center gap-4">
+                            {footerLinks.legal.map((link) => (
+                                <Link
+                                    key={link.label}
+                                    href={link.href}
+                                    className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                                >
+                                    {link.label}
+                                </Link>
+                            ))}
+                        </div>
+
+                        <span className="hidden md:block h-4 w-px bg-foreground/10" />
+
+                        <div className="flex items-center gap-4">
+                            {socialLinks.map((social) => (
+                                <Link
+                                    key={social.label}
+                                    href={social.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="opacity-60 hover:opacity-100 transition-opacity"
+                                >
+                                    <Image
+                                        src={`/icons/integrations/${social.icon}.svg`}
+                                        alt={social.label}
+                                        width={20}
+                                        height={20}
+                                        className={cn(
+                                            "size-5 grayscale",
+                                            social.icon === "x" && "size-4",
+                                        )}
+                                    />
+                                </Link>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </Wrapper>
