@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "https://app.usezipa.xyz";
 
 const nextConfig: NextConfig = {
-  reactCompiler: true,
+  reactCompiler: false,
   async redirects() {
     return [
       {

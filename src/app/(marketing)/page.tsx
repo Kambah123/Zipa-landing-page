@@ -6,6 +6,7 @@ import Workflow from "@/components/marketing/workflow";
 import Capibilities from "@/components/marketing/capibilities";
 import Integrations from "@/components/marketing/integrations";
 import Membership from "@/components/marketing/membership";
+import Founder from "@/components/marketing/founder";
 import WallOfLove from "@/components/marketing/wall-of-love";
 import Faq from "@/components/marketing/faq";
 import Cta from "@/components/marketing/cta";
@@ -21,6 +22,7 @@ const HomePage = () => {
             <Capibilities />
             <Integrations />
             <Membership />
+            <Founder />
             <WallOfLove />
             <Faq />
             <Cta />
