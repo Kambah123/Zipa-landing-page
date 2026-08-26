@@ -27,9 +27,6 @@ export default function FounderCard() {
                     <Link href="https://x.com/0xSkamber" target="_blank" rel="noopener noreferrer">
                         <Badge variant="secondary" className="hover:bg-secondary/80 text-sm py-1">X (@0xSkamber)</Badge>
                     </Link>
-                    <Link href="https://github.com/Kambah123" target="_blank" rel="noopener noreferrer">
-                        <Badge variant="secondary" className="hover:bg-secondary/80 text-sm py-1">GitHub (Kambah123)</Badge>
-                    </Link>
                     <Link href="https://tiktok.com/@0xskamber" target="_blank" rel="noopener noreferrer">
                         <Badge variant="secondary" className="hover:bg-secondary/80 text-sm py-1">TikTok (@0xskamber)</Badge>
                     </Link>

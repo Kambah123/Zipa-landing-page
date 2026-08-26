@@ -18,7 +18,7 @@ const StructuredData = () => {
             logo: `${SITE_URL}/icon.svg`,
             description:
                 "Zipa is the username-first crypto bank for Nigeria — send, receive and grow SOL, ETH, USDT and more with just your @username.",
-            sameAs: ["https://x.com/0xSkamber", "https://github.com/Kambah123"],
+            sameAs: ["https://x.com/0xSkamber", "https://tiktok.com/@0xskamber"],
         },
         {
             "@context": "https://schema.org",

@@ -29,7 +29,6 @@ export default function PressPage() {
         },
         sameAs: [
             "https://x.com/0xSkamber",
-            "https://github.com/Kambah123",
             "https://tiktok.com/@0xskamber"
         ]
     };
