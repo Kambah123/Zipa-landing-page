@@ -88,7 +88,7 @@ const Cta = () => {
                                 transition={{ duration: 0.6, delay: 0.4 }}
                                 className="text-base md:text-lg text-muted-foreground mt-6 max-w-2xl"
                             >
-                                Join the Zipa beta — it&apos;s free, it&apos;s on test networks, <br /> and your @username is waiting.
+                                Join the Zipa beta - it&apos;s free, it&apos;s on test networks, <br /> and your @username is waiting.
                             </motion.p>
 
                             <motion.div

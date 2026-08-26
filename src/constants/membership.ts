@@ -58,4 +58,4 @@ export const trustedCompanies = {
     }
 };
 
-export const PRICING_FOOTNOTE = "Zipa is in beta on test networks — everything is free to try today.";
+export const PRICING_FOOTNOTE = "Zipa is in beta on test networks - everything is free to try today.";

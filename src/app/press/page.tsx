@@ -9,7 +9,7 @@ import FounderCard from "@/components/marketing/founder-card";
 import CompanyFactsCard from "@/components/marketing/company-facts-card";
 
 export const metadata: Metadata = {
-    title: "Press & founder — Zipa",
+    title: "Press & founder - Zipa",
     description: "Press mentions and founder information for Zipa.",
 };
 

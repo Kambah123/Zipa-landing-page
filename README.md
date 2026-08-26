@@ -1,17 +1,17 @@
 # Zipa Landing Page
 
-The marketing landing page for **Zipa** — the username-first crypto bank for Nigeria.
+The marketing landing page for **Zipa** - the username-first crypto bank for Nigeria.
 
-Zipa lets you send, receive and grow — SOL, ETH, USDT and more — with just your @username. No wallet addresses. No gas jargon.
+Zipa lets you send, receive and grow - SOL, ETH, USDT and more - with just your @username. No wallet addresses. No gas jargon.
 
 ## Tech Stack
 
-- **Next.js 16** — React framework for production
-- **React 19** — UI library
-- **TailwindCSS 4** — Utility-first CSS
-- **Shadcn UI** — Reusable components built on Radix UI
-- **Motion / GSAP** — Production-ready animation
-- **TypeScript** — Type-safe code
+- **Next.js 16** - React framework for production
+- **React 19** - UI library
+- **TailwindCSS 4** - Utility-first CSS
+- **Shadcn UI** - Reusable components built on Radix UI
+- **Motion / GSAP** - Production-ready animation
+- **TypeScript** - Type-safe code
 
 ## Development
 

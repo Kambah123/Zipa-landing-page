@@ -34,14 +34,14 @@ async function walk(dir) {
 
 async function main() {
     if (!existsSync(SRC_DIR)) {
-        console.log('[decode-assets] assets-b64/ not found — skipping (no binary assets encoded yet).');
+        console.log('[decode-assets] assets-b64/ not found - skipping (no binary assets encoded yet).');
         process.exit(0);
     }
 
     const b64Files = await walk(SRC_DIR);
 
     if (b64Files.length === 0) {
-        console.log('[decode-assets] No .b64 files found in assets-b64/ — skipping.');
+        console.log('[decode-assets] No .b64 files found in assets-b64/ - skipping.');
         process.exit(0);
     }
 

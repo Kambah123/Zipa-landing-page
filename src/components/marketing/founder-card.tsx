@@ -20,7 +20,7 @@ export default function FounderCard() {
             </CardHeader>
             <CardContent className="flex-1 flex flex-col justify-between space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                    Musa built Zipa from the ground up — a username-first crypto bank for Nigeria where people send money to @handles instead of wallet addresses. Naira wallet, bills, invoicing, and five Nigerian languages, all shipped solo with AI pair-engineering.
+                    Musa built Zipa from the ground up - a username-first crypto bank for Nigeria where people send money to @handles instead of wallet addresses. Naira wallet, bills, invoicing, and five Nigerian languages, all shipped solo with AI pair-engineering.
                 </p>
                 
                 <div className="flex flex-wrap gap-2">

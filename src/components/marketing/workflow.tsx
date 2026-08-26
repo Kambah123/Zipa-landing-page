@@ -37,7 +37,7 @@ const Workflow = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.3 }}
                     >
-                        From sign-up to sending crypto — no technical knowledge needed.
+                        From sign-up to sending crypto - no technical knowledge needed.
                     </motion.p>
                 </div>
 

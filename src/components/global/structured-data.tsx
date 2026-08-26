@@ -17,7 +17,7 @@ const StructuredData = () => {
             url: SITE_URL,
             logo: `${SITE_URL}/icon.svg`,
             description:
-                "Zipa is the username-first crypto bank for Nigeria — send, receive and grow SOL, ETH, USDT and more with just your @username.",
+                "Zipa is the username-first crypto bank for Nigeria - send, receive and grow SOL, ETH, USDT and more with just your @username.",
             sameAs: ["https://x.com/0xSkamber", "https://tiktok.com/@0xskamber"],
         },
         {
@@ -38,7 +38,7 @@ const StructuredData = () => {
             url: SITE_URL,
             image: `${SITE_URL}/images/og-image.png`,
             description:
-                "Send money like a message. Zipa is a username-first, non-custodial crypto bank — pay anyone by @username across Solana and Ethereum, with NGN display and no gas jargon.",
+                "Send money like a message. Zipa is a username-first, non-custodial crypto bank - pay anyone by @username across Solana and Ethereum, with NGN display and no gas jargon.",
             offers: {
                 "@type": "Offer",
                 price: "0",

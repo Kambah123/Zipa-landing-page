@@ -118,7 +118,7 @@ const Integrations = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: 0.5 }}
                     >
-                        Solana, Ethereum, Base, Privy, Supabase and Helius — battle-tested infrastructure powering every transaction.
+                        Solana, Ethereum, Base, Privy, Supabase and Helius - battle-tested infrastructure powering every transaction.
                     </motion.p>
 
                     <motion.div

@@ -5,7 +5,7 @@ import { cn } from '@/utils';
 import Container from '../global/container';
 import Wrapper from '../global/wrapper';
 
-// The real infrastructure Zipa runs on — shown as their own brand marks.
+// The real infrastructure Zipa runs on - shown as their own brand marks.
 const RAILS = [
     { name: 'Solana', icon: 'solana' },
     { name: 'Ethereum', icon: 'ethereum' },

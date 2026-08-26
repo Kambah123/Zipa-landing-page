@@ -14,13 +14,13 @@ export const integrations = [
     {
         id: 3,
         title: "Base",
-        description: "Coinbase's L2 — low fees, Ethereum security.",
+        description: "Coinbase's L2 - low fees, Ethereum security.",
         link: "#"
     },
     {
         id: 4,
         title: "Privy",
-        description: "Embedded wallets with delegated server signing — Zipa never holds your keys.",
+        description: "Embedded wallets with delegated server signing - Zipa never holds your keys.",
         link: "#"
     },
     {

@@ -1,4 +1,4 @@
-# usezipa.xyz — Zipa. Crypto banking, made simple.
+# usezipa.xyz - Zipa. Crypto banking, made simple.
 User-agent: *
 Allow: /
 

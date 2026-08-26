@@ -2,21 +2,21 @@ export const capabilities = [
     {
         id: 1,
         title: "Username payments",
-        description: "Send and receive by @username only — no wallet addresses, no copy-paste errors, no stress.",
+        description: "Send and receive by @username only - no wallet addresses, no copy-paste errors, no stress.",
         illustration: "/images/client.webp",
         icon: "users"
     },
     {
         id: 2,
         title: "Real on-chain rails",
-        description: "SOL and ETH settle on actual blockchains. Solana · Ethereum · Base — pick your chain, Zipa handles the rest.",
+        description: "SOL and ETH settle on actual blockchains. Solana · Ethereum · Base - pick your chain, Zipa handles the rest.",
         illustration: "/images/project.webp",
         icon: "zap"
     },
     {
         id: 3,
         title: "Instant Zipa ledger",
-        description: "USDT, USDC, BONK, PEPE and WIF transfers between Zipa users are free and immediate — no gas, no wait.",
+        description: "USDT, USDC, BONK, PEPE and WIF transfers between Zipa users are free and immediate - no gas, no wait.",
         illustration: "/images/team.webp",
         icon: "zap"
     },
@@ -79,7 +79,7 @@ export const stats = [
         id: 2,
         value: "0.3%",
         label: "Flat swap fee",
-        description: "Live CoinGecko rates, 0.3% fee — nothing hidden.",
+        description: "Live CoinGecko rates, 0.3% fee - nothing hidden.",
         button: {
             text: "Claim @username",
             href: "#"

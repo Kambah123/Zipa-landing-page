@@ -10,7 +10,7 @@ export const testimonials = [
         id: 2,
         name: "Tunde Badmus",
         role: "Market Vendor, Yaba",
-        text: "I printed my Zipa QR and stuck it on my counter. Customers just scan and pay — no cash change drama. My @tunde_store handles everything.",
+        text: "I printed my Zipa QR and stuck it on my counter. Customers just scan and pay - no cash change drama. My @tunde_store handles everything.",
         avatar: "/images/avatars/avatar2.jpg"
     },
     {
@@ -24,7 +24,7 @@ export const testimonials = [
         id: 4,
         name: "Ngozi Adeyemi",
         role: "Remote Product Designer",
-        text: "I get paid in USDT and needed SOL for a project. Swapped inside Zipa at live rates with a 0.3% fee. The AI told me exactly what happened — no jargon.",
+        text: "I get paid in USDT and needed SOL for a project. Swapped inside Zipa at live rates with a 0.3% fee. The AI told me exactly what happened - no jargon.",
         avatar: "/images/avatars/avatar4.jpg"
     },
     {

@@ -2,9 +2,9 @@ import { Metadata } from "next";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://usezipa.xyz";
 
-const DEFAULT_TITLE = "Zipa — Crypto banking, made simple";
+const DEFAULT_TITLE = "Zipa - Crypto banking, made simple";
 const DEFAULT_DESCRIPTION =
-    "The username-first crypto bank for Nigeria. Send, receive and grow — SOL, ETH, USDT and more — with just your @username. No wallet addresses, no gas jargon.";
+    "The username-first crypto bank for Nigeria. Send, receive and grow - SOL, ETH, USDT and more - with just your @username. No wallet addresses, no gas jargon.";
 
 const KEYWORDS = [
     "Zipa",
@@ -79,7 +79,7 @@ export const generateMetadata = ({
                           url: image,
                           width: 1200,
                           height: 630,
-                          alt: "Zipa — Send money like a message",
+                          alt: "Zipa - Send money like a message",
                       },
                   ],
               }

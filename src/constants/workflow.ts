@@ -2,7 +2,7 @@ export const WORKFLOW_STEPS = [
     {
         number: "1",
         title: "Claim your @username",
-        description: "Sign up with email, phone, or Google. Solana, Ethereum and Base wallets are created silently in the background — no seed phrases, no setup.",
+        description: "Sign up with email, phone, or Google. Solana, Ethereum and Base wallets are created silently in the background - no seed phrases, no setup.",
     },
     {
         number: "2",

@@ -39,7 +39,7 @@ async function main() {
     const binaryFiles = await walk(SRC_DIR);
 
     if (binaryFiles.length === 0) {
-        console.log('[encode-assets] No binary files found in public/ — nothing to encode.');
+        console.log('[encode-assets] No binary files found in public/ - nothing to encode.');
         process.exit(0);
     }
 

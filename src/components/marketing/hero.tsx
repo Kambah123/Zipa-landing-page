@@ -64,7 +64,7 @@ const Hero = () => {
     const eyebrow = "Crypto banking for Nigeria";
     const h1Line1 = "Send money like";
     const h1Line2 = "a message.";
-    const description = "Zipa is the username-first crypto bank. Send, receive and grow — SOL, ETH, USDT and more — with just your @username. No wallet addresses. No gas jargon. No stress.";
+    const description = "Zipa is the username-first crypto bank. Send, receive and grow - SOL, ETH, USDT and more - with just your @username. No wallet addresses. No gas jargon. No stress.";
 
     return (
         <section className="relative w-full flex items-center justify-center pt-16 lg:pt-32 pb-4 overflow-hidden">

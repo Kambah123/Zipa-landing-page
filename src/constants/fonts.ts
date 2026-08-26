@@ -36,7 +36,7 @@ export const heading = localFont({
     variable: "--font-heading",
 });
 
-// Use Satoshi for base body text (keeps everything local — no Google Fonts needed)
+// Use Satoshi for base body text (keeps everything local - no Google Fonts needed)
 export const base = localFont({
     src: [
         {

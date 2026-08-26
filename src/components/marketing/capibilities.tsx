@@ -39,7 +39,7 @@ const Capibilities = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.3, delay: 0.3 }}
                     >
-                        Username payments, real on-chain rails, instant transfers and merchant tools — all in one app.
+                        Username payments, real on-chain rails, instant transfers and merchant tools - all in one app.
                     </motion.p>
                 </div>
 

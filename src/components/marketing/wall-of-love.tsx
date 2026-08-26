@@ -79,7 +79,7 @@ const WallOfLove = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.3 }}
                     >
-                        Freelancers, merchants and students across Nigeria — see what they are saying.
+                        Freelancers, merchants and students across Nigeria - see what they are saying.
                     </motion.p>
                 </div>
 
