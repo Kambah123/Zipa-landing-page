@@ -1,30 +1,13 @@
 import { Routes } from "./routes";
 
 export const NAV_LINKS = [
-    {
-        label: "Difference",
-        href: Routes.Difference,
-    },
-    {
-        label: "How it works",
-        href: Routes.Workflow,
-    },
-    {
-        label: "Features",
-        href: Routes.Capabilities,
-    },
-    {
-        label: "Rails",
-        href: Routes.Integrations,
-    },
-    {
-        label: "Pricing",
-        href: Routes.Membership,
-    },
-    {
-        label: "FAQ",
-        href: Routes.Faq,
-    },
+    { label: "Difference", href: Routes.Difference },
+    { label: "How it works", href: Routes.Workflow },
+    { label: "Features", href: Routes.Capabilities },
+    { label: "Rails", href: Routes.Integrations },
+    { label: "Pricing", href: Routes.Membership },
+    { label: "FAQ", href: Routes.Faq },
+    { label: "Ambassadors", href: Routes.Ambassadors },
 ] as const;
 
 export const footerLinks = {
@@ -43,6 +26,7 @@ export const footerLinks = {
     company: [
         { label: "About", href: "#" },
         { label: "Blog", href: "#" },
+        { label: "Ambassadors", href: Routes.Ambassadors },
         { label: "Contact", href: "mailto:musa@usezipa.xyz" }
     ],
     legal: [
@@ -51,6 +35,4 @@ export const footerLinks = {
     ]
 };
 
-export const socialLinks = [
-    { label: "X", href: "https://x.com/0xSkamber", icon: "x" }
-];
+export const socialLinks = [{ label: "X", href: "https://x.com/0xSkamber", icon: "x" }];
