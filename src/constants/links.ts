@@ -30,8 +30,8 @@ export const footerLinks = {
         { label: "Contact", href: "mailto:musa@usezipa.xyz" }
     ],
     legal: [
-        { label: "Terms of Service", href: "https://app.usezipa.xyz/terms" },
-        { label: "Privacy Policy", href: "https://app.usezipa.xyz/privacy" }
+        { label: "Terms of Service", href: "/terms" },
+        { label: "Privacy Policy", href: "/privacy" }
     ]
 };
 
