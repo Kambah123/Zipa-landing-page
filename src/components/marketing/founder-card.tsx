@@ -24,6 +24,9 @@ export default function FounderCard() {
                 </p>
                 
                 <div className="flex flex-wrap gap-2">
+                    <Link href="https://www.linkedin.com/in/musa-sulaiman-8ba03b432/" target="_blank" rel="noopener noreferrer">
+                        <Badge variant="secondary" className="hover:bg-secondary/80 text-sm py-1">LinkedIn</Badge>
+                    </Link>
                     <Link href="https://x.com/0xSkamber" target="_blank" rel="noopener noreferrer">
                         <Badge variant="secondary" className="hover:bg-secondary/80 text-sm py-1">X (@0xSkamber)</Badge>
                     </Link>
