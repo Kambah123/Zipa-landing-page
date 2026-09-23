@@ -35,4 +35,7 @@ export const footerLinks = {
     ]
 };
 
-export const socialLinks = [{ label: "X", href: "https://x.com/0xSkamber", icon: "x" }];
+export const socialLinks = [
+    { label: "X", href: "https://x.com/0xSkamber", icon: "x" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/musa-sulaiman-8ba03b432/", icon: "linkedin" },
+];
