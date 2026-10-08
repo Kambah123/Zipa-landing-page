@@ -4,7 +4,6 @@ export const NAV_LINKS = [
     { label: "Difference", href: Routes.Difference },
     { label: "How it works", href: Routes.Workflow },
     { label: "Features", href: Routes.Capabilities },
-    { label: "Rails", href: Routes.Integrations },
     { label: "Pricing", href: Routes.Membership },
     { label: "FAQ", href: Routes.Faq },
     { label: "Ambassadors", href: Routes.Ambassadors },
