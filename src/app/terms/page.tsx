@@ -142,4 +142,3 @@ export default function TermsPage() {
 }
 
 
-</cursor_untrusted_data_1337>
