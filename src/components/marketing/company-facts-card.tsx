@@ -13,11 +13,11 @@ export default function CompanyFactsCard() {
                 <div className="grid grid-cols-2 gap-y-6 gap-x-4">
                     <div className="space-y-1.5">
                         <p className="text-sm text-muted-foreground">Legal Entity</p>
-                        <p className="font-medium text-foreground">OneDev Studioo</p>
+                        <p className="font-medium text-foreground">ZIPA - ONEDEV LIMITED</p>
                     </div>
                     <div className="space-y-1.5">
                         <p className="text-sm text-muted-foreground">Registration</p>
-                        <p className="font-medium text-foreground">CAC BN 9704508</p>
+                        <p className="font-medium text-foreground">RC 9927146</p>
                     </div>
                     <div className="space-y-1.5">
                         <p className="text-sm text-muted-foreground">Launch Market</p>
@@ -34,3 +34,6 @@ export default function CompanyFactsCard() {
         </Card>
     );
 }
+
+
+</cursor_untrusted_data_1337>
