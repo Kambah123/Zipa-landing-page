@@ -14,6 +14,8 @@ const StructuredData = () => {
             "@type": "Organization",
             "@id": `${SITE_URL}/#organization`,
             name: "Zipa",
+            legalName: "ZIPA - ONEDEV LIMITED",
+            identifier: { "@type": "PropertyValue", propertyID: "CAC RC", value: "9927146" },
             url: SITE_URL,
             logo: `${SITE_URL}/icon.svg`,
             description:
@@ -71,3 +73,6 @@ const StructuredData = () => {
 };
 
 export default StructuredData;
+
+
+</cursor_untrusted_data_1337>
