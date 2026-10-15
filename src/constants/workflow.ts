@@ -1,22 +1,23 @@
+
 export const WORKFLOW_STEPS = [
     {
         number: "1",
-        title: "Claim your @username",
-        description: "Sign up with email, phone, or Google. Solana, Ethereum and Base wallets are created silently in the background - no seed phrases, no setup.",
+        title: "Get your account",
+        description: "Each beta user gets an NGN account number and an @username.",
     },
     {
         number: "2",
         title: "Fund it",
-        description: "Receive from any external wallet, or grab free test SOL from the faucet while Zipa is in beta on devnet.",
+        description: "Deposit naira by bank transfer.",
     },
     {
         number: "3",
-        title: "Send & get paid",
-        description: "Pay anyone by @username, share your merchant QR, or send your public pay link (zipa.com/pay/@you). No wallet addresses required.",
+        title: "Pay",
+        description: "Buy airtime, data, electricity and TV, or send to any @username.",
     },
     {
         number: "4",
-        title: "Grow",
-        description: "Swap tokens at live CoinGecko rates with a 0.3% flat fee, track your portfolio, and see everything in naira.",
+        title: "Hold USDC",
+        description: "Buy and sell USDC with naira, and withdraw to your bank any time.",
     },
 ];

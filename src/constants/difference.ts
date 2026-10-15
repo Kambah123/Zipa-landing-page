@@ -1,19 +1,20 @@
+
 export const OTHER_TOOLS = [
-    "Hex addresses nobody remembers",
-    "Seed phrases you must never lose",
-    "Gas fees calculated by hand",
-    "Waiting on blockchain confirmations",
-    "Exchange jargon and KYC walls",
-    "No naira display - just USD",
+    "One app for bank, another for bills",
+    "Long account numbers to copy",
+    "Separate apps for dollars",
+    "Hidden fees",
+    "No idea what is coming next",
+    "Support you cannot reach",
 ];
 
 export const ZIPA_FEATURES = [
-    "@usernames - send to a person, not an address",
-    "Secure embedded wallets you never manage",
-    "Instant free internal transfers on the Zipa ledger",
-    "AI explains every transaction in plain language",
-    "Live prices and naira-aware balances",
-    "Real on-chain rails: Solana · Ethereum · Base",
+    "NGN account with deposits and withdrawals",
+    "Airtime, data, electricity and TV in one place",
+    "USDC buy and sell with naira",
+    "Send to a person by @username",
+    "The rate is shown before you confirm",
+    "Built in public, shipped every week",
 ];
 
 // Keep legacy export name so the Difference component still compiles
