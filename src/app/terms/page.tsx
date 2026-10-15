@@ -29,7 +29,7 @@ export default function TermsPage() {
 
         <div className="mt-10 space-y-10">
           <Section n={1} title="Who we are">
-            <p>Zipa is operated by <strong className="text-foreground">OneDev Studioo</strong>, Nigeria (CAC BN 9704508). In these terms, &quot;Zipa&quot;, &quot;we&quot;, &quot;us&quot; and &quot;our&quot; refer to Zipa and its operator.</p>
+            <p>Zipa is operated by <strong className="text-foreground">ZIPA - ONEDEV LIMITED</strong>, a company registered in Nigeria (RC 9927146). In these terms, &quot;Zipa&quot;, &quot;we&quot;, &quot;us&quot; and &quot;our&quot; refer to Zipa and its operator.</p>
             <p>By creating an account or using a Zipa service, you agree to these terms and the Privacy Policy.</p>
           </Section>
 
@@ -127,7 +127,7 @@ export default function TermsPage() {
           </Section>
 
           <Section n={20} title="Contact">
-            <p><strong className="text-foreground">OneDev Studioo · Nigeria</strong><br />Email: <a className="font-medium text-foreground underline underline-offset-4" href="mailto:musa@usezipa.xyz">musa@usezipa.xyz</a><br />X: @0xSkamber</p>
+            <p><strong className="text-foreground">ZIPA - ONEDEV LIMITED · RC 9927146 · Nigeria</strong><br />Email: <a className="font-medium text-foreground underline underline-offset-4" href="mailto:musa@usezipa.xyz">musa@usezipa.xyz</a><br />X: @0xSkamber</p>
           </Section>
         </div>
 
@@ -140,3 +140,5 @@ export default function TermsPage() {
     </main>
   );
 }
+
+

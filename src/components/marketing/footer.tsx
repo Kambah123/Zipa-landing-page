@@ -115,7 +115,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-12 pt-8 border-t border-foreground/5">
                     <div className="flex flex-col gap-1 text-center md:text-left">
                         <p className="text-sm text-muted-foreground">
-                            &copy; 2026 Zipa Labs &middot; Built in Nigeria 🇳🇬
+                            &copy; 2026 ZIPA - ONEDEV LIMITED &middot; Built in Nigeria 🇳🇬
                         </p>
                         <p className="text-xs text-muted-foreground/60">
                             Zipa is in beta on test networks. Real-money services launch after regulatory approvals.
@@ -167,3 +167,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

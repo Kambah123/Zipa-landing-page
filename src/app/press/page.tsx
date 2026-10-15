@@ -25,7 +25,7 @@ export default function PressPage() {
         worksFor: {
             "@type": "Organization",
             name: "Zipa",
-            legalName: "OneDev Studioo",
+            legalName: "ZIPA - ONEDEV LIMITED",
         },
         sameAs: [
             "https://x.com/0xSkamber",
@@ -91,3 +91,5 @@ export default function PressPage() {
         </main>
     );
 }
+
+
