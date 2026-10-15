@@ -3,7 +3,6 @@
 import Icons from '@/components/global/icons';
 import Wrapper from '@/components/global/wrapper';
 import { Button } from '@/components/ui/button';
-import { APP_URL } from '@/constants/app';
 import { motion } from 'motion/react';
 
 const Cta = () => {
@@ -76,9 +75,9 @@ const Cta = () => {
                                 transition={{ duration: 0.6, delay: 0.3 }}
                                 className="text-3xl md:text-4xl lg:text-5xl font-medium bg-linear-to-r from-foreground to-foreground/70 text-transparent bg-clip-text leading-[1.2] mt-8 max-w-3xl"
                             >
-                                Crypto banking,
+                                Built in public,
                                 <br />
-                                made simple.
+                                one release at a time.
                             </motion.h2>
 
                             <motion.p
@@ -88,7 +87,7 @@ const Cta = () => {
                                 transition={{ duration: 0.6, delay: 0.4 }}
                                 className="text-base md:text-lg text-muted-foreground mt-6 max-w-2xl"
                             >
-                                Join the Zipa beta - it&apos;s free, it&apos;s on test networks, <br /> and your @username is waiting.
+                                Zipa is in private beta. Follow along as each feature goes live.
                             </motion.p>
 
                             <motion.div
@@ -99,9 +98,9 @@ const Cta = () => {
                                 whileHover={{ scale: 1.05 }}
                                 className="mt-6"
                             >
-                                <a href={`${APP_URL}/login`} target="_self">
+                                <a href="#live">
                                     <Button size="lg" className="text-base">
-                                        Claim your @username
+                                        See what is live
                                     </Button>
                                 </a>
                             </motion.div>
@@ -114,3 +113,5 @@ const Cta = () => {
 };
 
 export default Cta;
+
+

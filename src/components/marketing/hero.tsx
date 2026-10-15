@@ -4,7 +4,6 @@ import React from 'react';
 import Wrapper from '../global/wrapper';
 import { Button } from '../ui/button';
 import { Routes } from '@/constants';
-import { APP_URL } from '@/constants/app';
 import Link from 'next/link';
 
 import { motion, useMotionValue } from 'motion/react';
@@ -15,9 +14,9 @@ import Container from "../global/container";
 
 const badges = [
     { text: "@username payments", top: "15%", left: "5%" },
-    { text: "SOL · ETH · Base", top: "25%", right: "8%" },
-    { text: "Instant Zipa ledger", top: "60%", left: "10%" },
-    { text: "NGN display", top: "70%", right: "18%" },
+    { text: "NGN account", top: "25%", right: "8%" },
+    { text: "Airtime, data, power, TV", top: "60%", left: "10%" },
+    { text: "USDC buy and sell", top: "70%", right: "18%" },
 ];
 
 const FloatingBadge = ({ text, top, left, right, index }: { text: string; top: string; left?: string; right?: string; index: number }) => {
@@ -61,10 +60,10 @@ const FloatingBadge = ({ text, top, left, right, index }: { text: string; top: s
 
 const Hero = () => {
 
-    const eyebrow = "Crypto banking for Nigeria";
+    const eyebrow = "Building in public";
     const h1Line1 = "Send money like";
     const h1Line2 = "a message.";
-    const description = "Zipa is the username-first crypto bank. Send, receive and grow - SOL, ETH, USDT and more - with just your @username. No wallet addresses. No gas jargon. No stress.";
+    const description = "A naira account, bills and USDC in one app. Pay anyone by @username. In beta, shipping every week.";
 
     return (
         <section className="relative w-full flex items-center justify-center pt-16 lg:pt-32 pb-4 overflow-hidden">
@@ -147,9 +146,9 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.6 }}
                         className={cn("flex items-center gap-4 flex-wrap justify-center mt-8")}
                     >
-                        <a href={`${APP_URL}/login`} target="_self">
+                        <a href="#live">
                             <Button size="lg">
-                                Claim your @username
+                                See what is live
                             </Button>
                         </a>
                         <a href="#workflow">
@@ -201,3 +200,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
