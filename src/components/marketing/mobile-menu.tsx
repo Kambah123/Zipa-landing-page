@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import React from 'react';
 import { NAV_LINKS } from "@/constants";
-import { APP_URL } from "@/constants/app";
 import { Button } from "../ui/button";
 
 interface Props {
@@ -59,13 +58,13 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                         }}
                         className="flex flex-col gap-3 pt-4"
                     >
-                        <a href={`${APP_URL}/login`} target="_self" onClick={() => setIsOpen(false)}>
+                        <a href="#live" onClick={() => setIsOpen(false)}>
                             <Button
                                 size="default"
                                 variant="white"
                                 className="w-full"
                             >
-                                Claim @username
+                                What is live
                             </Button>
                         </a>
                     </motion.div>
@@ -76,3 +75,5 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
 };
 
 export default MobileMenu;
+
+

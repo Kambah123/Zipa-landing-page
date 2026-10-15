@@ -9,7 +9,6 @@ import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import MobileMenu from "./mobile-menu";
 import { NAV_LINKS, Routes } from "@/constants";
-import { APP_URL } from "@/constants/app";
 import { motion } from "motion/react";
 
 const Navbar = () => {
@@ -58,9 +57,9 @@ const Navbar = () => {
                         </div>
 
                         <div className="flex items-center gap-2 lg:gap-3">
-                            <a href={`${APP_URL}/login`} target="_self">
+                            <a href="#live">
                                 <Button className="hidden lg:flex">
-                                    Claim @username
+                                    What is live
                                 </Button>
                             </a>
                             <Button
@@ -82,3 +81,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

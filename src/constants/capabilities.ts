@@ -1,29 +1,29 @@
 export const capabilities = [
     {
         id: 1,
-        title: "Username payments",
-        description: "Send and receive by @username only - no wallet addresses, no copy-paste errors, no stress.",
+        title: "Naira account",
+        description: "Your own NGN account number. Deposit by bank transfer and withdraw to any Nigerian bank.",
         illustration: "/images/client.webp",
         icon: "users"
     },
     {
         id: 2,
-        title: "Real on-chain rails",
-        description: "SOL and ETH settle on actual blockchains. Solana · Ethereum · Base - pick your chain, Zipa handles the rest.",
+        title: "Bills",
+        description: "Airtime and data for MTN, Airtel and Glo. Prepaid electricity. DStv and GOtv.",
         illustration: "/images/project.webp",
         icon: "zap"
     },
     {
         id: 3,
-        title: "Instant Zipa ledger",
-        description: "USDT, USDC, BONK, PEPE and WIF transfers between Zipa users are free and immediate - no gas, no wait.",
+        title: "USDC",
+        description: "Buy and sell USDC with naira at the rate shown before you confirm.",
         illustration: "/images/team.webp",
         icon: "zap"
     },
     {
         id: 4,
-        title: "Merchant mode",
-        description: "Get a business handle, a printable QR, and a public pay page at zipa.com/pay/@yourstore.",
+        title: "Send to @username",
+        description: "Pay another Zipa user by @username. No account numbers to copy.",
         illustration: "/images/invoices.webp",
         icon: "file"
     }
@@ -77,12 +77,14 @@ export const stats = [
     },
     {
         id: 2,
-        value: "0.3%",
-        label: "Flat swap fee",
-        description: "Live CoinGecko rates, 0.3% fee - nothing hidden.",
+        value: "Beta",
+        label: "Shipping in public",
+        description: "New features land here as they go live.",
         button: {
-            text: "Claim @username",
-            href: "#"
+            text: "See what is live",
+            href: "#live"
         }
     }
 ];
+
+
